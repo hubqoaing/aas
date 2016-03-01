@@ -82,6 +82,9 @@ improve performance:
 
 ```scala
 // Convert phyloP data to Parquet for better performance; run once
+
+//Is there any modules needed to import? 
+//Futhermore, it seemed there is no adamBEDFeatureLoad in the latest version of adam. So how could I load these files and save to Parquet?
 sc.adamBEDFeatureLoad("/user/ds/genomics/phylop_text").adamSave("/user/ds/genomics/phylop")
 ```
 
